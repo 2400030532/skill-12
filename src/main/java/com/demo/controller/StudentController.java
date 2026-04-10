@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.demo.model.Student;
 import com.demo.service.StudentManager;
 
-@CrossOrigin(origins="*")  //common resource sharing
+@CrossOrigin(origins="http://localhost:5173")  //common resource sharing
 @RestController //controller + json
 @RequestMapping("/dbcrud")
 @ResponseBody
